@@ -131,8 +131,11 @@ input:checked+.slider:before {
 
 .intro__contact .highlight-link {
     text-decoration: none;
+    display: inline-block;
     color: inherit;
     padding: 2px 3px;
+    font-weight: 400;
+    transition: all 0.2s ease-in-out;
     box-shadow: inset 0 -3px 0 #007bff;
 }
 
@@ -289,21 +292,57 @@ input:checked+.slider:before {
     padding: 100px 170px;
 }
 
-.projects .projects__content {
-    max-width: 670px;
-} 
-
-.projects__title{
+.projects__title {
+    flex-shrink: 0;
+    width: 200px;
+    margin-right: 70px;
     color: #007bff;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
-    float: right;
+    text-align: right;
 }
 
+.projects__content {
+    max-width: 670px;
+    width: 100%;
+    font-weight: 300;
+    font-size: 1rem;
+}
 
+.projects__content .project {
+    margin-bottom: 25px;
+}
 
+.projects__name {
+    margin-bottom: 10px;
+}
 
+.projects__name>a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.projects__content p {
+    margin-top: 0;
+    font-size: .9rem;
+    color: #afafbf;
+}
+
+.projects__languages {
+    margin-top: 10px;
+}
+
+.projects__languages__used {
+    margin-right: 7px;
+    font-size: .8rem;
+    color: #007bff;
+    font-weight: 600;
+    border: #007bff 1px solid;
+    border-radius: 2px;
+    padding: 2px 3px;
+}
 
 
 /* Footer */
