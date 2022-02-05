@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/v1/static/css/main.bda1a5b8.css",
-    "main.js": "/v1/static/js/main.aeb4573b.js",
+    "main.css": "/v1/static/css/main.d28150e2.css",
+    "main.js": "/v1/static/js/main.614ad312.js",
     "static/media/wave-hand.png": "/v1/static/media/wave-hand.de58266ca078ade76d5e.png",
     "static/media/Front-End.pdf": "/v1/static/media/Front-End.659c8de97d0d9da051c5.pdf",
     "index.html": "/v1/index.html",
-    "main.bda1a5b8.css.map": "/v1/static/css/main.bda1a5b8.css.map",
-    "main.aeb4573b.js.map": "/v1/static/js/main.aeb4573b.js.map"
+    "main.d28150e2.css.map": "/v1/static/css/main.d28150e2.css.map",
+    "main.614ad312.js.map": "/v1/static/js/main.614ad312.js.map"
   },
   "entrypoints": [
-    "static/css/main.bda1a5b8.css",
-    "static/js/main.aeb4573b.js"
+    "static/css/main.d28150e2.css",
+    "static/js/main.614ad312.js"
   ]
 }
